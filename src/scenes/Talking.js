@@ -16,7 +16,8 @@ class Talking extends Phaser.Scene {
         this.NEXT_X = 775;			// next text prompt x-position
         this.NEXT_Y = 574;			// next text prompt y-position
 
-        this.LETTER_TIMER = 10;		// # ms each letter takes to "type" onscreen
+        // this.LETTER_TIMER = 10;		// # ms each letter takes to "type" onscreen
+        this.LETTER_TIMER = 1;		// # ms each letter takes to "type" onscreen
 
         // dialog variables
         this.dialogConvo = 0;			// current "conversation"
