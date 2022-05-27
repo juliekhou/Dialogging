@@ -41,6 +41,7 @@ class Title extends Phaser.Scene {
         // wait for player input
         if(Phaser.Input.Keyboard.JustDown(cursors.space)) {
             this.scene.start("talkingScene");
+            // this.scene.start("macbethScene");
         }
     }
 }

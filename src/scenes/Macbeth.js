@@ -34,7 +34,7 @@ class Macbeth extends Phaser.Scene {
         // this.secondWitch = this.add.sprite();
         this.tweenDuration = 500;
 
-        this.OFFSCREEN_X = -500;        // x,y values to place characters offscreen
+        this.OFFSCREEN_X = -1000;        // x,y values to place characters offscreen
         this.OFFSCREEN_Y = 1000;
     }
 
@@ -52,9 +52,9 @@ class Macbeth extends Phaser.Scene {
 
         // ready the character dialog images offscreen
         this.macbeth = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'macbeth').setOrigin(0, 1).setScale(.5);
-        this.firstWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'firstWitch').setOrigin(0, 1).setScale(.5);
-        this.secondWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'secondWitch').setOrigin(0, 1).setScale(.5);
-        this.thirdWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'thirdWitch').setOrigin(0, 1).setScale(.5);
+        this.firstWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'firstWitch').setOrigin(0, 1).setScale(.75);
+        this.secondWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'secondWitch').setOrigin(0, 1).setScale(.25);
+        this.thirdWitch = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'thirdWitch').setOrigin(0, 1).setScale(.1);
 
         // input
         cursors = this.input.keyboard.createCursorKeys();
