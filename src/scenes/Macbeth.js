@@ -1,6 +1,6 @@
-class Talking extends Phaser.Scene {
+class Macbeth extends Phaser.Scene {
     constructor() {
-        super("talkingScene");
+        super("macbethScene");
 
         // dialog constants
         this.DBOX_X = 0;			    // dialog box x-position
@@ -28,10 +28,10 @@ class Talking extends Phaser.Scene {
         this.nextText = null;			// player prompt text to continue typing
 
         // character variables
-        this.homer = null;
-        this.minerva = null;
-        this.neptune = null;
-        this.jove = null;
+        this.macbeth = this.add.sprite();
+        this.thirdWitch = this.add.sprite();
+        this.firstWitch = this.add.sprite();
+        this.secondWitch = this.add.sprite();
         this.tweenDuration = 500;
 
         this.OFFSCREEN_X = -500;        // x,y values to place characters offscreen
@@ -40,7 +40,7 @@ class Talking extends Phaser.Scene {
 
     create() {
         // parse dialog from JSON file
-        this.dialog = this.cache.json.get('dialog');
+        this.dialog = this.cache.json.get('macbeth');
         //console.log(this.dialog);
 
         // add dialog box sprite
@@ -111,7 +111,6 @@ class Talking extends Phaser.Scene {
             }
             // make text box invisible
             this.dialogbox.visible = false;
-            this.scene.start("macbethScene");
 
         } else {
             // if not, set current speaker

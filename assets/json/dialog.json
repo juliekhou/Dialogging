@@ -2,24 +2,28 @@
 	[
 		{
 			"speaker" : "homer",
-			"dialog" : "Tell me, O muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy.",
+			"dialog" : "Hello, I hope you're doing well.",
 			"newSpeaker" : "true"
 		},
 		{
-			"speaker" : "homer",
-			"dialog" : "Many cities did he visit, and many were the nations with whose manners and customs he was acquainted."
+			"speaker" : "neptune",
+			"dialog" : "I have been so stressed as of lately, personally.",
+			"newSpeaker" : "true"
 		},
 		{	
 			"speaker" : "homer",
-			"dialog" : "Moreover he suffered much by sea while trying to save his own life and bring his men safely home."
+			"dialog" : "Oh man has it been gloomy too recently.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "minerva",
+			"dialog" : "I miss the sun.",
+			"newSpeaker" : "true"
 		},
 		{	
 			"speaker" : "homer",
-			"dialog" : "But do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion."
-		},
-		{	
-			"speaker" : "homer",
-			"dialog" : "So the gods prevented them from ever reaching home."
+			"dialog" : "So the gods prevented the sun from ever reaching home.",
+			"newSpeaker" : "true"
 		},
 		{	
 			"speaker" : "homer",
@@ -53,6 +57,11 @@
 		{	
 			"speaker" : "minerva",
 			"dialog" : "If, then, the gods now mean that Ulysses should get home, we should first send Mercury to the Ogygian island to tell Calypso that we have made up our minds and that he is to return.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "minerva",
+			"dialog" : "But anyways, here's an extra dialog entry.",
 			"newSpeaker" : "true"
 		}
 	]

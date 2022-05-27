@@ -1,0 +1,34 @@
+[
+	[
+		{
+			"speaker" : "thirdWitch",
+			"dialog" : "Hail!",
+			"newSpeaker" : "true"
+		},
+		{
+			"speaker" : "firstWitch",
+			"dialog" : "Lesser than Macbeth, and greater.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "secondWitch",
+			"dialog" : "Not so happy, yet much happier.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "thirdWitch",
+			"dialog" : "Thou shalt get kings, though thou be none: So all hail, Macbeth and Banquo!",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "firstWitch",
+			"dialog" : "Banquo and Macbeth, all hail!",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "macbeth",
+			"dialog" : "Stay, you imperfect speakers, tell me more: By Sinel's death I know I am thane of Glamis;",
+			"newSpeaker" : "true"
+		}
+	]
+]
